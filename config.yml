@@ -1,0 +1,19 @@
+debug_mode: true
+interval: 15
+randomize_interval:
+  enabled: false
+  maximum_interval: 30
+  minimum_interval: 10
+tokens:
+- token: 'YOUR_FIRST_TOKEN'
+  channels:
+    - id: 'CHANNEL_ID_1'
+      message: 'Hello, this is a message for Channel 1!'
+    - id: 'CHANNEL_ID_2'
+      message: 'Hello, this is a message for Channel 2!'
+- token: 'YOUR_SECOND_TOKEN'
+  channels:
+    - id: 'CHANNEL_ID_3'
+      message: 'Hello, this is a message for Channel 3!'
+    - id: 'CHANNEL_ID_4'
+      message: 'Hello, this is a message for Channel 4!'
